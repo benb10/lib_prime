@@ -3,9 +3,6 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'echo AAA'
-                bat 'python --version'
-                bat 'echo BBB'
             }
         }
     }
