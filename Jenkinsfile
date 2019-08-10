@@ -5,19 +5,19 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                python --version
+                bat 'python --version'
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing...'
-                python --version
+                bat 'python --version'
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploying...'
-                python --version
+                bat 'python --version'
             }
         }
     }
